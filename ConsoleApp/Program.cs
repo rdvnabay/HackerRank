@@ -23,6 +23,9 @@ int output_5 = DiagonalDifference.Run(input_5); //output: 15
 //Lesson 6: Plus Minus
 PlusMinus.Run(new() { -4, 3, -9, 0, 4, 1 });
 
+//Lesson 7: Mini-Max Sum
+MiniMaxSum.Run(new() { 1, 2, 3, 4, 5 });
+
 //Lesson 8: Birthday Cake Candles
 int output_8 = BirthdayCakeCandles.Run(new() { 3, 2, 1, 3 }); //output: 2
 
