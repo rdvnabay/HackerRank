@@ -13,6 +13,14 @@ Console.WriteLine(String.Join(" ", output_3));
 //Lesson 4: A Very Big Sum
 long output_4 = AVeryBigSum.Run(new() { 1000000001, 1000000002, 1000000003, 1000000004, 1000000005 }); //output: 5000000015
 
+//Lesson 5: Diagonal Difference
+List<List<int>> input_5 = new();
+input_5.Add(new List<int> { 11, 2, 4 });
+input_5.Add(new List<int> { 4, 5, 6 });
+input_5.Add(new List<int> { 10, 8, -12 });
+int output_5 = DiagonalDifference.Run(input_5); //output: 15
+Console.WriteLine(output_5);
+
 //Lesson 8: Birthday Cake Candles
 int output_8 = BirthdayCakeCandles.Run(new() { 3, 2, 1, 3 }); //output: 2
 
