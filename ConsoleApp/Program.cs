@@ -19,7 +19,9 @@ input_5.Add(new List<int> { 11, 2, 4 });
 input_5.Add(new List<int> { 4, 5, 6 });
 input_5.Add(new List<int> { 10, 8, -12 });
 int output_5 = DiagonalDifference.Run(input_5); //output: 15
-Console.WriteLine(output_5);
+
+//Lesson 6: Plus Minus
+PlusMinus.Run(new() { -4, 3, -9, 0, 4, 1 });
 
 //Lesson 8: Birthday Cake Candles
 int output_8 = BirthdayCakeCandles.Run(new() { 3, 2, 1, 3 }); //output: 2
