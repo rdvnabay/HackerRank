@@ -36,7 +36,7 @@ public class MiniMaxSum
                 minResult -= currentValue;
             
         }
-        Console.Write(minResult + " " + maxResult);
+        Console.WriteLine(minResult + " " + maxResult);
     }
 }
 
