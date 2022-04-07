@@ -36,5 +36,10 @@ string output_9 = TimeConversion.Run("07:05:45PM"); //output: 19:05:45
 List<int> output_10 = GradingStudents.Run(new() { 73, 67, 38, 33 });
 output_10.ForEach((item => Console.WriteLine(item)));
 
+//Lesson 11: Apple and Orange
+
+//Lesson 12: Number Line Jumps
+string output_12 = NumberLineJumps.Run(0, 2, 5, 3); //output: "NO"
+
 
 
