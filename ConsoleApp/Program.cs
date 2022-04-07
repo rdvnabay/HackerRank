@@ -41,5 +41,10 @@ output_10.ForEach((item => Console.WriteLine(item)));
 //Lesson 12: Number Line Jumps
 string output_12 = NumberLineJumps.Run(0, 2, 5, 3); //output: "NO"
 
+//Lesson 13: Between Two Sets
+
+//Lesson 14: Breaking the Records
+List<int> output_14 = BreakingTheRecords.Run(new() { 10, 5, 20, 20, 4, 5, 2, 25, 1 });
+Console.WriteLine(String.Join(" ", output_14));
 
 
