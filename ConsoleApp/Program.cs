@@ -33,7 +33,7 @@ int output_8 = BirthdayCakeCandles.Run(new() { 3, 2, 1, 3 }); //output: 2
 string output_9 = TimeConversion.Run("07:05:45PM"); //output: 19:05:45
 
 //Chapter 10: Grading Students
-List<int> output_10 = GradingStudents.Run(new() { 73, 67, 38, 33 });
+List<int> output_10 = GradingStudents.Run(new() { 73, 67, 38, 33 }); //output: 75 67 40 33
 output_10.ForEach((item => Console.WriteLine(item)));
 
 //Chapter 11: Apple and Orange
@@ -44,11 +44,15 @@ string output_12 = NumberLineJumps.Run(0, 2, 5, 3); //output: "NO"
 //Chapter 13: Between Two Sets
 
 //Chapter 14: Breaking the Records
-List<int> output_14 = BreakingTheRecords.Run(new() { 10, 5, 20, 20, 4, 5, 2, 25, 1 });
+List<int> output_14 = BreakingTheRecords.Run(new() { 10, 5, 20, 20, 4, 5, 2, 25, 1 }); //output: 2 4
 Console.WriteLine(String.Join(" ", output_14));
 
 //Chapter 15: Subarray Division
-int output_15 = SubarrayDivision.Run(new() { 1, 2, 1, 3, 2 }, 3, 2);
+int output_15 = SubarrayDivision.Run(new() { 1, 2, 1, 3, 2 }, 3, 2); //output: 2
 Console.WriteLine(output_15);
+
+//Chapter 16: Divisible Sum Pairs
+int output_16 = DivisibleSumPairs.Run(6, 3, new() { 1, 3, 2, 6, 1, 2 }); //output: 5
+
 
 
