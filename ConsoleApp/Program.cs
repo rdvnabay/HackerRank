@@ -43,6 +43,7 @@ AppleAndOrange.Run(7, 11, 5, 15, new() { -2, 2, 1 }, new() { 5, -6 });
 string output_12 = NumberLineJumps.Run(0, 2, 5, 3); //output: "NO"
 
 //Chapter 13: Between Two Sets
+int output_13 = BetweenTwoSets.Run(new() { 2, 4 }, new() { 16, 32, 96 }); //output: 3
 
 //Chapter 14: Breaking the Records
 List<int> output_14 = BreakingTheRecords.Run(new() { 10, 5, 20, 20, 4, 5, 2, 25, 1 }); //output: 2 4
@@ -57,6 +58,11 @@ int output_16 = DivisibleSumPairs.Run(6, 3, new() { 1, 3, 2, 6, 1, 2 }); //outpu
 
 //Chapter 17: Migratory Birds
 int output_17 = MigratoryBirds.Run(new() { 1, 4, 4, 4, 5, 3 }); //output: 4
+
+//Chapter 18: Day of the Programmer
+
+//Chapter 19: Bill Division
+BillDivision.Run(new() { 3, 10, 2, 9 }, 1, 12);
 
 
 
