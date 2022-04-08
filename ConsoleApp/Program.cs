@@ -37,6 +37,7 @@ List<int> output_10 = GradingStudents.Run(new() { 73, 67, 38, 33 }); //output: 7
 output_10.ForEach((item => Console.WriteLine(item)));
 
 //Chapter 11: Apple and Orange
+AppleAndOrange.Run(7, 11, 5, 15, new() { -2, 2, 1 }, new() { 5, -6 });
 
 //Chapter 12: Number Line Jumps
 string output_12 = NumberLineJumps.Run(0, 2, 5, 3); //output: "NO"
