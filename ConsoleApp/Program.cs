@@ -62,7 +62,10 @@ int output_17 = MigratoryBirds.Run(new() { 1, 4, 4, 4, 5, 3 }); //output: 4
 //Chapter 18: Day of the Programmer
 
 //Chapter 19: Bill Division
-BillDivision.Run(new() { 3, 10, 2, 9 }, 1, 12);
+BillDivision.Run(new() { 3, 10, 2, 9 }, 1, 12); //output: 5
+
+//Chapter 20: Sales by Match
+int output_20 = SalesByMatch.Run(9, new() { 10, 20, 20, 10, 10, 30, 50, 10, 20 }); //output: 3
 
 
 
