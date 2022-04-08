@@ -54,5 +54,9 @@ Console.WriteLine(output_15);
 //Chapter 16: Divisible Sum Pairs
 int output_16 = DivisibleSumPairs.Run(6, 3, new() { 1, 3, 2, 6, 1, 2 }); //output: 5
 
+//Chapter 17: Migratory Birds
+int output_17 = MigratoryBirds.Run(new() { 1, 4, 4, 4, 5, 3 }); //output: 4
+
+
 
 
