@@ -74,6 +74,7 @@ int output_21 = DrawingBook.Run(6, 2);
 int output_22 = CountingValleys.Run(8, "UDDDUDUU");
 
 //Chapter 23: Electronics Shop
-int output_23 = ElectronicsShop.Run(new[] { 3, 1 }, new[] { 5, 2, 8 }, 10);
+int output_23 = ElectronicsShop.Run(new[] { 3, 1 }, new[] { 5, 2, 8 }, 10); //output: 9
 
-
+//Chapter 24: Cats and a Mouse
+string output_24 = CatsAndAMouse.Run(1, 2, 3); //output: "Cat B"
