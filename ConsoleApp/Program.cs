@@ -78,3 +78,9 @@ int output_23 = ElectronicsShop.Run(new[] { 3, 1 }, new[] { 5, 2, 8 }, 10); //ou
 
 //Chapter 24: Cats and a Mouse
 string output_24 = CatsAndAMouse.Run(1, 2, 3); //output: "Cat B"
+
+//Chapter 25: Forming a Magic Square
+
+//Chapter 26: Picking Numbers
+int output_26 = PickingNumbers.Run(new() { 4, 6, 5, 3, 3, 1 }); //output: 3
+
