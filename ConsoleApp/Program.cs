@@ -67,6 +67,13 @@ BillDivision.Run(new() { 3, 10, 2, 9 }, 1, 12); //output: 5
 //Chapter 20: Sales by Match
 int output_20 = SalesByMatch.Run(9, new() { 10, 20, 20, 10, 10, 30, 50, 10, 20 }); //output: 3
 
+//Chapter 21: Drawing Book 
+int output_21 = DrawingBook.Run(6, 2);
 
+//Chapter 22: Counting Valleys
+int output_22 = CountingValleys.Run(8, "UDDDUDUU");
+
+//Chapter 23: Electronics Shop
+int output_23 = ElectronicsShop.Run(new[] { 3, 1 }, new[] { 5, 2, 8 }, 10);
 
 
