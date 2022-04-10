@@ -92,4 +92,7 @@ List<int> output_27 = ClimbingTheLeaderboard.Run(new() { 100, 100, 50, 40, 40, 2
 //Chapter 28: The Hurdle Race
 int output_28 = TheHurdleRace.Run(4, new() { 1, 6, 3, 5, 2 }); //output: 2
 
+//Chapter 29: Designer PDF Viewer
+int ouput_29 = DesignerPDFViewer.Run(new() { 1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 }, "abc"); //output: 9
+
 
