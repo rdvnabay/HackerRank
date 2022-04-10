@@ -89,3 +89,7 @@ int output_26 = PickingNumbers.Run(new() { 4, 6, 5, 3, 3, 1 }); //output: 3
 //Chapter 27: Climbing the Leaderboard
 List<int> output_27 = ClimbingTheLeaderboard.Run(new() { 100, 100, 50, 40, 40, 20, 10 }, new() { 5, 25, 50, 120 });
 
+//Chapter 28: The Hurdle Race
+int output_28 = TheHurdleRace.Run(4, new() { 1, 6, 3, 5, 2 }); //output: 2
+
+
