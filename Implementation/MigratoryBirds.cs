@@ -1,4 +1,4 @@
-﻿namespace Algorithms;
+﻿namespace Implementation;
 
 public class MigratoryBirds
 {
@@ -10,11 +10,11 @@ public class MigratoryBirds
     public static int Run(List<int> arr)
     {
         //Solution:1 
-        Dictionary<int, int> liste = arr
+        Dictionary<int, int> keyValuePairs = arr
             .GroupBy(x => x) //[1,4,5,3]
             .ToDictionary(x => x.Key, x => x.Count()); // [1,1] [4,3] [5,1] [3,1]
 
-        var maxItem = liste.MaxBy(x => x.Value);
+        var maxItem = keyValuePairs.MaxBy(x => x.Value);
         return maxItem.Key;
     }
 }

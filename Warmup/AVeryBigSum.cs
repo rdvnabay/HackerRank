@@ -1,4 +1,4 @@
-﻿namespace Algorithms;
+﻿namespace Warmup;
 public class AVeryBigSum
 {
     /*

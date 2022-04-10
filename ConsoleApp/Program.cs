@@ -1,4 +1,6 @@
-﻿using Algorithms;
+﻿using Warmup;
+using Implementation;
+
 
 //Chapter 1: Solve Me First
 int output_1 = SolveMeFirst.Run(3, 5); //output: 8
@@ -83,4 +85,7 @@ string output_24 = CatsAndAMouse.Run(1, 2, 3); //output: "Cat B"
 
 //Chapter 26: Picking Numbers
 int output_26 = PickingNumbers.Run(new() { 4, 6, 5, 3, 3, 1 }); //output: 3
+
+//Chapter 27: Climbing the Leaderboard
+List<int> output_27 = ClimbingTheLeaderboard.Run(new() { 100, 100, 50, 40, 40, 20, 10 }, new() { 5, 25, 50, 120 });
 
