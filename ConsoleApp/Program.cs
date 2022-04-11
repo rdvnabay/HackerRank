@@ -10,7 +10,7 @@ int output_2 = SimpleArraySum.Run(new() { 1, 2, 3, 4, 10, 11 }); //output: 31
 
 //Chapter 3: Compare The Triplets
 List<int> output_3 = CompareTheTriplets.Run(new() { 5, 6, 7 }, new() { 3, 6, 10 }); //output: 1 1
-Console.WriteLine(String.Join(" ", output_3));
+Console.WriteLine($"output_3: {String.Join(" ", output_3)}");
 
 //Chapter 4: A Very Big Sum
 long output_4 = AVeryBigSum.Run(new() { 1000000001, 1000000002, 1000000003, 1000000004, 1000000005 }); //output: 5000000015
@@ -39,7 +39,7 @@ List<int> output_10 = GradingStudents.Run(new() { 73, 67, 38, 33 }); //output: 7
 output_10.ForEach((item => Console.WriteLine(item)));
 
 //Chapter 11: Apple and Orange
-AppleAndOrange.Run(7, 11, 5, 15, new() { -2, 2, 1 }, new() { 5, -6 });
+AppleAndOrange.Run(7, 11, 5, 15, new() { -2, 2, 1 }, new() { 5, -6 }); //output: 1 1
 
 //Chapter 12: Number Line Jumps
 string output_12 = NumberLineJumps.Run(0, 2, 5, 3); //output: "NO"
@@ -105,6 +105,10 @@ int output_32 = BeautifulDaysAtTheMovies.Run(20, 23, 6);
 
 //Chapter 33: Viral Advertising
 int output_33 = ViralAdvertising.Run(3); //output: 9
+
+//Chapter 34: Save the Prisoner
+int output_34 = SaveThePrisoner.Run(7, 19, 2);
+
 
 
 

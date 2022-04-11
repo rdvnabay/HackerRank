@@ -8,37 +8,77 @@ public class BetweenTwoSets
     /// <param name="a"> [2, 4] </param>
     /// <param name="b"> [16, 32, 96] </param>
     /// <returns> 3 </returns>
-    
+
     public static int Run(List<int> a, List<int> b)
     {
-        int firstListMinValue = a.Min();
-        int firstListMaxValue = a.Max();
+        int divisionCounter = 0;
+        bool divisible = false;
         int secondListMinValue = b.Min();
-        List<int> divisionList = new();
-  
+        int leastCommonMultiple = GetLeastCommonMultiple(a, a.Max());
 
-        var ekok = test(a[0], a[1]);
+        if (leastCommonMultiple == 0)
+            return 0;
 
-        for (int i = firstListMaxValue; i <= secondListMinValue; i += firstListMinValue)
+        for (int i = leastCommonMultiple; i <= secondListMinValue; i += leastCommonMultiple)
         {
-            if (i % ekok == 0)
-                divisionList.Add(i);     
+            for (int j = 0; j < b.Count; j++)
+            {
+                if (b[j] % i == 0)
+                    divisible = true;
+                else
+                {
+                    divisible = false;
+                    break;
+                }
+            }
+
+            if (divisible)
+            {
+                divisionCounter++;
+                divisible = false;
+            }
         }
-        return 0;
+        return divisionCounter;
     }
 
-    public static int Ekok(int num1, int num2)
+
+    public static int GetLeastCommonMultiple(List<int> numbers, int currentMaxValue)
     {
-        int temp = 0;
-        while (num2 != 0)
-        {
-            temp = num2;
-            num2 = num1 % num2;
-            num1 = temp;
-        }
-        return num1;
-    }
+        int defaultMaxNumber = numbers.Max();
+        bool result = false;
 
-    public static int test(int num1, int num2) => (num1 / Ekok(num1, num2) * num2);
+        foreach (var number in numbers)
+        {
+            if (currentMaxValue % number == 0)
+                result = true;
+
+            else
+            {
+                result = false;
+                break;
+            }
+        }
+
+        try
+        {
+            if (!result)
+            {
+              
+                checked
+                {
+                    currentMaxValue += defaultMaxNumber;
+                    GetLeastCommonMultiple(numbers, currentMaxValue);
+                }
+            }
+        }
+        catch (Exception)
+        {
+            return 0;
+        } 
+            
+        return currentMaxValue;
+    }
 }
+
+
 
