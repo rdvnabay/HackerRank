@@ -9,13 +9,15 @@ public class MigratoryBirds
     /// <returns> 4 </returns>
     public static int Run(List<int> arr)
     {
-        //Solution:1 
         Dictionary<int, int> keyValuePairs = arr
             .GroupBy(x => x) //[1,4,5,3]
-            .ToDictionary(x => x.Key, x => x.Count()); // [1,1] [4,3] [5,1] [3,1]
+            .OrderBy(x => x.Key) // [1,3,4,5]
+            .ToDictionary(x => x.Key, x => x.Count()); // [1,1] [3,1] [4,3] [5,1] 
 
-        var maxItem = keyValuePairs.MaxBy(x => x.Value);
-        return maxItem.Key;
+        int maxValue = keyValuePairs.Max(x => x.Value); //3
+
+        KeyValuePair<int, int> maxKeyValuePair = keyValuePairs.Where(x => x.Value == maxValue).First(); // [4,3]
+        return maxKeyValuePair.Key;
     }
 }
 
