@@ -100,4 +100,11 @@ int ouput_29 = DesignerPDFViewer.Run(new() { 1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5,
 //Chapter 31: Angry Professor
 string output_31 = AngryProfessor.Run(3, new() { -1, -3, 4, 2 }); //output: "NO"
 
+//Chapter 32: Beautiful Days at the Movies
+int output_32 = BeautifulDaysAtTheMovies.Run(20, 23, 6);
+
+//Chapter 33: Viral Advertising
+int output_33 = ViralAdvertising.Run(3); //output: 9
+
+
 
