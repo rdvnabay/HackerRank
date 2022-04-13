@@ -109,6 +109,12 @@ int output_33 = ViralAdvertising.Run(3); //output: 9
 //Chapter 34: Save the Prisoner
 int output_34 = SaveThePrisoner.Run(5, 2, 1); //output: 2
 
+//Chapter 35: Circular Array Rotation
+List<int> output_35 = CircularArrayRotation.Run(new() { 3, 4, 5, 6 }, 2, new() { 1, 2 });
+
+//Chaper 36: Sequence Equation
+SequenceEquation.Run(new() { 5, 2, 1, 3, 4 });
+
 
 
 
