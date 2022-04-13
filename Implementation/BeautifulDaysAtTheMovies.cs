@@ -5,26 +5,27 @@ public class BeautifulDaysAtTheMovies
     /// <summary>
     /// 
     /// </summary>
-    /// <param name="i"> 20 </param>
-    /// <param name="j"> 23 </param>
-    /// <param name="k"> 6 </param>
-    /// <returns> 2 </returns>
+    /// <param name="i"> the starting day number </param>
+    /// <param name="j"> the ending day number </param>
+    /// <param name="k"> the divisor </param>
+    /// <returns> the number of beautiful days in the range  </returns>
     public static int Run(int i, int j, int k)
     {
-        int reminder, reverse = 0;
+        int numberOfIntegerValues = 0;
 
         for (int number = i; number <= j; number++)
         {
-            Console.WriteLine("number " + number);
-            //while (number > 0)
-            //{
-            //    reminder = number % 10;
-            //    reverse = (reverse * 10) + reminder;
-            //    number = number / 10;
-            //}
-            //Console.WriteLine("rev " + reverse);
+            int reverseNumber = int.Parse(number.ToString()
+                 .Reverse()
+                 .Aggregate("", (s, c) => s + c));
+
+            double result = Math.Abs((double)(number - reverseNumber) / (double)k);
+
+            if (result - (int)result == 0)
+                numberOfIntegerValues++;
         }
-        return 0;
+
+        return numberOfIntegerValues;
     }
 }
 
