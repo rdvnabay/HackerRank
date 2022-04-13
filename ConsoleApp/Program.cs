@@ -120,7 +120,10 @@ Console.WriteLine(String.Join(" ", output_36));
 int output_37 = JumpingOnTheCloudsRevisited.Run(new int[] { 1, 1, 1, 0, 1, 1, 0, 0, 0, 0 }, 3); //bug
 
 //Chapter 38: Find Digits
-int output_38 = FindDigits.Run(1012);
+int output_38 = FindDigits.Run(1012); //output: 3
+
+//Chaper 39: Extra Long Factorials
+ExtraLongFactorials.Run(25); //output: 15511210043330985984000000
 
 
 
