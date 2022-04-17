@@ -129,10 +129,10 @@ ExtraLongFactorials.Run(25); //output: 15511210043330985984000000
 string output_40 = AppendAndDelete.Run("hackerhappy", "hackerrank", 9); //output: Yes
 
 //Chapter 41: Sherlock and Squares
-int output_41 = SherlockAndSquares.Run(465868129, 988379794); //output: 2
+int output_41 = SherlockAndSquares.Run(3, 9); //output: 2
 
-
-
+//Chapter 42: Library Fine
+int output_42 = LibraryFine.Run(9, 6, 2015, 6, 6, 2015);
 
 
 
