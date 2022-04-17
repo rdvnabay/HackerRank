@@ -110,20 +110,26 @@ int output_33 = ViralAdvertising.Run(3); //output: 9
 int output_34 = SaveThePrisoner.Run(5, 2, 1); //output: 2
 
 //Chapter 35: Circular Array Rotation
-List<int> output_35 = CircularArrayRotation.Run(new() { 3, 4, 5, 6 }, 2, new() { 1, 2 });
+//List<int> output_35 = CircularArrayRotation.Run(new() { 3, 4, 5, 6 }, 2, new() { 1, 2 });
 
 //Chaper 36: Sequence Equation
 List<int> output_36 = SequenceEquation.Run(new() { 5, 2, 1, 3, 4 }); //output [4,2,5,1,3]
 Console.WriteLine(String.Join(" ", output_36));
 
 //Chapter 37: Jumping on the Clouds: Revisited 
-int output_37 = JumpingOnTheCloudsRevisited.Run(new int[] { 1, 1, 1, 0, 1, 1, 0, 0, 0, 0 }, 3); //bug
+//int output_37 = JumpingOnTheCloudsRevisited.Run(new int[] { 1, 1, 1, 0, 1, 1, 0, 0, 0, 0 }, 3); //bug
 
 //Chapter 38: Find Digits
 int output_38 = FindDigits.Run(1012); //output: 3
 
 //Chaper 39: Extra Long Factorials
 ExtraLongFactorials.Run(25); //output: 15511210043330985984000000
+
+//Chapter 40: Append and Delete
+string output_40 = AppendAndDelete.Run("hackerhappy", "hackerrank", 9); //output: Yes
+
+//Chapter 41: Sherlock and Squares
+int output_41 = SherlockAndSquares.Run(465868129, 988379794); //output: 2
 
 
 
