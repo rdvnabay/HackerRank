@@ -134,5 +134,8 @@ int output_41 = SherlockAndSquares.Run(3, 9); //output: 2
 //Chapter 42: Library Fine
 int output_42 = LibraryFine.Run(9, 6, 2015, 6, 6, 2015);
 
+//Chapter 43: Cut the sticks
+List<int> output_43 = CutTheSticks.Run(new() { 5, 4, 4, 2, 2, 8 });
+
 
 
