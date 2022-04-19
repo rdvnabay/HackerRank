@@ -132,10 +132,17 @@ string output_40 = AppendAndDelete.Run("hackerhappy", "hackerrank", 9); //output
 int output_41 = SherlockAndSquares.Run(3, 9); //output: 2
 
 //Chapter 42: Library Fine
-int output_42 = LibraryFine.Run(9, 6, 2015, 6, 6, 2015);
+int output_42 = LibraryFine.Run(9, 6, 2015, 6, 6, 2015); //output:45
 
 //Chapter 43: Cut the sticks
-List<int> output_43 = CutTheSticks.Run(new() { 5, 4, 4, 2, 2, 8 });
+List<int> output_43 = CutTheSticks.Run(new() { 5, 4, 4, 2, 2, 8 }); //output: [6,4,2,1]
+
+//Chapter 44: Non-Divisible Subset
+//int output_44 = NonDivisibleSubset.Run(3, new() { 1, 7, 2, 4 }); //output: 3
+int output_44 = NonDivisibleSubset.Run(7, new() { 278, 576, 496, 727, 410, 124, 338, 149, 209, 702, 282, 718, 771, 575, 436 });
+
+//Chapter 45: Repeated String
+long output_45 = RepeatedString.Run("aba", 10); //output: 7
 
 
 
