@@ -144,5 +144,9 @@ int output_44 = NonDivisibleSubset.Run(7, new() { 278, 576, 496, 727, 410, 124, 
 //Chapter 45: Repeated String
 long output_45 = RepeatedString.Run("aba", 10); //output: 7
 
+//Chapter 46: Jumping on the Clouds
+int output_46 = JumpingOnTheClouds.Run(new() { 0, 0, 0, 1, 0, 0 }); //output: 3
+
+
 
 

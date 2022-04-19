@@ -24,3 +24,5 @@
 |Easy |Subarray Division        |✔      |
 |Easy |Divisible Sum Pairs      |✔      |
 |Easy |Migratory Birds          |✔      |
+|Easy |[][Day of the Programmer] |❌
+|Easy |[https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/BillDivision.cs][Bill Division] |✔️
