@@ -2,16 +2,14 @@
 
 public class TheHurdleRace
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="k"> 4 </param>
-    /// <param name="height"> [1 6 3 5 2] </param>
-    /// <returns></returns>
+    /// <param name="k"> the height the character can jump naturally </param>
+    /// <param name="height"> the heights of each hurdle </param>
+    /// <returns> the minimum number of doses required, always 0 or more</returns>
     public static int Run(int k, List<int> height)
     {
         int maxHeight = height.Max();
         int result = maxHeight - k;
+
         if (result > 0)
             return result;
         else

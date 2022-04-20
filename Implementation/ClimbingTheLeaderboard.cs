@@ -2,13 +2,9 @@
 
 public class ClimbingTheLeaderboard
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="ranked"> [100, 100, 50, 40, 40, 20, 10] </param>
-    /// <param name="player"> [5, 25, 50, 120] </param>
-    /// <returns> [6,4,2,1] </returns>
-
+    /// <param name="ranked"> the leaderboard scores </param>
+    /// <param name="player"> the player's scores </param>
+    /// <returns> the player's rank after each new score </returns>
     public static List<int> Run(List<int> ranked, List<int> player)
     {
         List<int> AliceRank = new();
@@ -20,7 +16,7 @@ public class ClimbingTheLeaderboard
 
         //var liste = Recursive(rankingList, player, AliceRank);
 
-        return null;
+        return AliceRank;
     }
 
     public static List<int> Recursive(Dictionary<int, int> rankingList, List<int> player, List<int> AliceRank)

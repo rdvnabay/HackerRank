@@ -2,15 +2,11 @@
 
 public class CountingValleys
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="steps"> 8 </param>
-    /// <param name="path"> "UDDDUDUU" </param>
-    /// <returns></returns>
+    /// <param name="steps"> the number of steps on the hike </param>
+    /// <param name="path"> a string describing the path </param>
+    /// <returns> the number of valleys traversed </returns>
     public static int Run(int steps, string path)
     {
-
         int first = path[0];
         int last = path[steps - 1];
 

@@ -2,13 +2,10 @@
 
 public class CatsAndAMouse
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="x">Cat A: 1</param>
-    /// <param name="y">Cat B: 2</param>
-    /// <param name="z">Mouse: 3</param>
-    /// <returns> Cat B</returns>
+    /// <param name="x"> Cat A's position </param>
+    /// <param name="y"> Cat B's position </param>
+    /// <param name="z"> Mouse C's position </param>
+    /// <returns> Either 'Cat A', 'Cat B', or 'Mouse C' </returns>
     public static string Run(int x, int y, int z)
     {
         int catA = Math.Abs(z - x);

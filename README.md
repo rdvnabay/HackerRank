@@ -22,4 +22,30 @@
 - [x] [Migratory Birds](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/MigratoryBirds.cs)      
 - [ ] Day of the Programmer
 - [x] [Bill Division](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/BillDivision.cs)
-
+- [x] [Sales by Match](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/SalesByMatch.cs)
+- [ ] Drawing Book 
+- [ ] Counting Valleys
+- [x] [Electronics Shop](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/ElectronicsShop.cs)
+- [x] [Cats and a Mouse](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/CatsAndAMouse.cs)
+- [ ] Forming a Magic Square
+- [x] [Picking Numbers](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/PickingNumbers.cs)
+- [ ] Climbing the Leaderboard
+- [x] [The Hurdle Race](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/TheHurdleRace.cs)
+- [x] [Designer PDF Viewer](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/DesignerPDFViewer.cs)
+- [ ] Utopian Tree
+- [x] [Angry Professor](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/AngryProfessor.cs)
+- [ ] Beautiful Days at the Movies
+- [x] [Viral Advertising](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/ViralAdvertising.cs)
+- [ ] Save the Prisoner
+- [ ] Circular Array Rotation
+- [x] [Sequence Equation](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/SequenceEquation.cs)
+- [ ] Jumping on the Clouds: Revisited
+- [x] [Find Digits](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/FindDigits.cs)
+- [x] [Extra Long Factorials](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/ExtraLongFactorials.cs)
+- [ ] Append and Delete
+- [ ] Sherlock and Squares
+- [x] [Library Fine](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/LibraryFine.cs)
+- [x] [Cut the sticks](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/CutTheSticks.cs)
+- [ ] Non-Divisible Subset
+- [x] [Repeated String](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/RepeatedString.cs)
+- [x] [Jumping on the Clouds](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/JumpingOnTheClouds.cs)

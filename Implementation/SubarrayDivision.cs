@@ -2,14 +2,10 @@
 
 public class SubarrayDivision
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="s"> [1 2 1 3 2] </param>
-    /// <param name="d"> 3 </param>
-    /// <param name="m"> 2 </param>
-    /// <returns></returns>
-    /// 
+    /// <param name="s"> the numbers on each of the squares of chocolate </param>
+    /// <param name="d"> Ron's birth day </param>
+    /// <param name="m"> Ron's birth month </param>
+    /// <returns> the number of ways the bar can be divided </returns>
     public static int Run(List<int> s, int d, int m)
     {
         int startRange = 0;
@@ -28,7 +24,7 @@ public class SubarrayDivision
                 startRange++;
                 endRange++;
                 i = startRange - 1;
-                total = 0;           
+                total = 0;
             }
         }
         return counter;

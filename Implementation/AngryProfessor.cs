@@ -2,12 +2,9 @@
 
 public class AngryProfessor
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="k"> The professor wants at least (3) students in attendance </param>
-    /// <param name="a"> the arrival times of the students </param>
-    /// <returns> "NO" </returns>
+    /// <param name="k"> int k: the threshold number of students </param>
+    /// <param name="a"> int a[n]: the arrival times of the students </param>
+    /// <returns> string: either YES or NO </returns>
     public static string Run(int k, List<int> a)
     {
         int onTimeArrivalStudentCount = 0;

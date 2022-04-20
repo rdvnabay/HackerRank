@@ -2,13 +2,10 @@
 
 public class ElectronicsShop
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="keyboards"> the keyboard prices: [3, 1] </param>
-    /// <param name="drives"> the drive prices: [5, 2, 8] </param>
-    /// <param name="b">budget:  10 </param>
-    /// <returns> the maximum that can be spent, or -1 if it is not possible to buy both items: 9 </returns>
+    /// <param name="keyboards"> the keyboard prices </param>
+    /// <param name="drives"> the drive prices </param>
+    /// <param name="b"> the budget </param>
+    /// <returns> the maximum that can be spent, or -1 if it is not possible to buy both items</returns>
     public static int Run(int[] keyboards, int[] drives, int b)
     {
         int currentCost = 0;

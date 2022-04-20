@@ -2,11 +2,8 @@
 
 public class MigratoryBirds
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="arr"> [1, 4, 4, 4, 5, 3] </param>
-    /// <returns> 4 </returns>
+    /// <param name="arr"> the types of birds sighted </param>
+    /// <returns> the lowest type id of the most frequently sighted birds </returns>
     public static int Run(List<int> arr)
     {
         Dictionary<int, int> keyValuePairs = arr

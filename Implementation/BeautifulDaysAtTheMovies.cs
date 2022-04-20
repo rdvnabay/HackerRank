@@ -2,13 +2,10 @@
 
 public class BeautifulDaysAtTheMovies
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="i"> the starting day number </param>
-    /// <param name="j"> the ending day number </param>
-    /// <param name="k"> the divisor </param>
-    /// <returns> the number of beautiful days in the range  </returns>
+    /// <param name="i"> int i: the starting day number </param>
+    /// <param name="j"> int j: the ending day number </param>
+    /// <param name="k"> int k: the divisor </param>
+    /// <returns> int: the number of beautiful days in the range </returns>
     public static int Run(int i, int j, int k)
     {
         int numberOfIntegerValues = 0;

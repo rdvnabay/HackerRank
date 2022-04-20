@@ -2,19 +2,11 @@
 
 public class NumberLineJumps
 {
-    /// <summary>
-    /// You are choreographing a circus show with various animals. For one act, you are given two kangaroos on a number line ready to jump in the positive direction (i.e, toward positive infinity).
-    /// The first kangaroo starts at location and moves at a rate of meters per jump.
-    /// The second kangaroo starts at location and moves at a rate of meters per jump.
-    /// You have to figure out a way to get both kangaroos at the same location at the same time as part of the show.If it is possible, return YES, otherwise return NO.
-    /// </summary>
-
-    /// <param name="x1">first kangaroo start position</param>
-    /// <param name="v1">first kangaroo number of steps</param>
-    /// <param name="x2">second kangaroo start position</param>
-    /// <param name="v2">second kangaroo number of steps</param>
-    /// <returns>"YES" or "NO"</returns>
-
+    /// <param name="x1"> starting position for kangaroo 1 </param>
+    /// <param name="v1"> jump distance for kangaroo 1 </param>
+    /// <param name="x2"> starting position for kangaroo 2 </param>
+    /// <param name="v2"> jump distance for kangaroo 2 </param>
+    /// <returns> either YES or NO </returns>
     public static string Run(int x1, int v1, int x2, int v2)
     {
         string result = "";

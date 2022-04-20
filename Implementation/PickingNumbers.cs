@@ -2,11 +2,8 @@
 
 public class PickingNumbers
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="a"></param>
-    /// <returns></returns>
+    /// <param name="a"> an array of integers </param>
+    /// <returns> the length of the longest subarray that meets the criterion </returns>
     public static int Run(List<int> a)
     {
         int previousValue = 0;

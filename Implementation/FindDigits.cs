@@ -2,6 +2,8 @@ namespace Implementation;
 
 public class FindDigits
 {
+    /// <param name="n"> int n: the value to analyze </param>
+    /// <returns> int: the number of digits in n that are divisors of n </returns>
     public static int Run(int n)
     {
         int originNumber = n;

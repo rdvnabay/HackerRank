@@ -2,12 +2,9 @@
 
 public class RepeatedString
 {
-    /// <summary>
-    /// 
-    /// </summary>
     /// <param name="s"> a string to repeat </param>
     /// <param name="n"> the number of characters to consider </param>
-    /// <returns> the frequency of a in the substring </returns>
+    /// <returns> int: the frequency of a in the substring </returns>
     public static long Run(string s, long n)
     {
         long containingTheLetterA = 0;

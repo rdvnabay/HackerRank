@@ -2,11 +2,8 @@
 
 public class JumpingOnTheClouds
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="c"> an array of binary integers </param>
-    /// <returns> the minimum number of jumps required </returns>
+    /// <param name="c"> int c[n]: an array of binary integers </param>
+    /// <returns> int: the minimum number of jumps required</returns>
     public static int Run(List<int> c)
     {
         int numberOfJumps = 0;
@@ -36,7 +33,7 @@ public class JumpingOnTheClouds
                     step = 0;
                     numberOfJumps++;
                 }
-            }               
+            }
         }
 
         return numberOfJumps;

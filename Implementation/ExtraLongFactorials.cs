@@ -4,6 +4,7 @@ namespace Implementation;
 
 public class ExtraLongFactorials
 {
+    /// <param name="n"> n: an integer </param>
     public static void Run(int n)
     {
         BigInteger factorial = 1;

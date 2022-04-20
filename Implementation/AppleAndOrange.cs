@@ -2,16 +2,12 @@
 
 public class AppleAndOrange
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="s"> falling start point:7 </param>
-    /// <param name="t"> falling end point:11 </param>
-    /// <param name="a"> apple current point:5 </param>
-    /// <param name="b"> orange current point:15 </param>
-    /// <param name="apples"> [-2 2 1] </param>
-    /// <param name="oranges">[5 -6]</param>
-
+    /// <param name="s"> starting point of Sam's house location </param>
+    /// <param name="t"> ending location of Sam's house location </param>
+    /// <param name="a"> location of the Apple tree </param>
+    /// <param name="b"> location of the Orange tree </param>
+    /// <param name="apples"> distances at which each apple falls from the tree </param>
+    /// <param name="oranges"> distances at which each orange falls from the tree </param>
     public static void Run(int s, int t, int a, int b, List<int> apples, List<int> oranges)
     {
         int numberOfApplesFallingToTheGround = 0;

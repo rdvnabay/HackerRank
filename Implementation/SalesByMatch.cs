@@ -2,12 +2,9 @@
 
 public class SalesByMatch
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="n"> 9 </param>
-    /// <param name="ar"> [10, 20, 20, 10, 10, 30, 50, 10, 20] </param>
-    /// <returns> 3 </returns>
+    /// <param name="n"> the number of socks in the pile </param>
+    /// <param name="ar"> the colors of each sock </param>
+    /// <returns> the number of pairs </returns>
     public static int Run(int n, List<int> ar)
     {
         int result = 0;

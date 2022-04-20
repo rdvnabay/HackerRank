@@ -2,11 +2,8 @@
 
 public class ViralAdvertising
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="n"> 3 </param>
-    /// <returns> 9 </returns>
+    /// <param name="n"> int n: the day number to report </param>
+    /// <returns> int: the cumulative likes at that day </returns>
     public static int Run(int n)
     {
         const int shareAdvertisingCount = 3;
@@ -20,6 +17,7 @@ public class ViralAdvertising
             shared = currentCumulative * shareAdvertisingCount;
             cumulative += currentCumulative;
         }
+
         return cumulative;
     }
 }

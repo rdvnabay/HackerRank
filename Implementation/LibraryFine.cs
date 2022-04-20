@@ -2,6 +2,13 @@
 
 public class LibraryFine
 {
+    /// <param name="d1"> int d1: returned date day </param>
+    /// <param name="m1"> int m1: returned date month</param>
+    /// <param name="y1"> int y1: returned date year</param>
+    /// <param name="d2"> int d2: due date day</param>
+    /// <param name="m2"> int m2: due date month</param>
+    /// <param name="y2"> int y2: due date year</param>
+    /// <returns> int: the amount of the fine or if there is none </returns>
     public static int Run(int d1, int m1, int y1, int d2, int m2, int y2)
     {
         int result = 0;

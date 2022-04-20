@@ -2,11 +2,8 @@
 
 public class CutTheSticks
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="arr"> the lengths of each stick </param>
-    /// <returns> the number of sticks after each iteration </returns>
+    /// <param name="arr"> int arr[n]: the lengths of each stick </param>
+    /// <returns> int[]: the number of sticks after each iteration </returns>
     public static List<int> Run(List<int> arr)
     {
         List<int> numberOfSticksAfterEachIteration = new List<int>();

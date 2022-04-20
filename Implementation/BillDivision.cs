@@ -2,12 +2,9 @@
 
 public class BillDivision
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="bill"> [3, 10, 2, 9] </param>
-    /// <param name="k"> 1 </param>
-    /// <param name="b"> 12 </param>
+    /// <param name="bill"> an array of integers representing the cost of each item ordered </param>
+    /// <param name="k"> an integer representing the zero-based index of the item Anna doesn't eat </param>
+    /// <param name="b"> the amount of money that Anna contributed to the bill </param>
     public static void Run(List<int> bill, int k, int b)
     {
         int amountPaidTogether = 0;

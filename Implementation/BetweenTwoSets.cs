@@ -2,13 +2,9 @@
 
 public class BetweenTwoSets
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="a"> [2, 4] </param>
-    /// <param name="b"> [16, 32, 96] </param>
-    /// <returns> 3 </returns>
-
+    /// <param name="a"> an array of integers  </param>
+    /// <param name="b"> an array of integers </param>
+    /// <returns> the number of integers that are between the sets </returns>
     public static int Run(List<int> a, List<int> b)
     {
         int divisionCounter = 0;
@@ -63,7 +59,6 @@ public class BetweenTwoSets
         {
             if (!result)
             {
-              
                 checked
                 {
                     currentMaxValue += defaultMaxNumber;
@@ -74,8 +69,8 @@ public class BetweenTwoSets
         catch (Exception)
         {
             return 0;
-        } 
-            
+        }
+
         return currentMaxValue;
     }
 }

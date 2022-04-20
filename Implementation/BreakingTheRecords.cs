@@ -2,14 +2,10 @@
 
 public class BreakingTheRecords
 {
-    /// <summary>
-    /// Maria plays college basketball and wants to go pro. Each season she maintains a record of her play. 
-    /// She tabulates the number of times she breaks her season record for most points and least points in a game. 
-    /// Points scored in the first game establish her record for the season, and she begins counting from there.
-    /// </summary>
-    /// <param name="scores"> [10 5 20 20 4 5 2 25 1] </param>
-    /// <returns> 2 4 </returns>
-    
+    /// <param name="scores"> points scored per game </param>
+    /// <returns> int[2]: An array with the numbers of times she broke her records. 
+    /// Index 0 is for breaking most points records,
+    /// and index 1 is for breaking least points records. </returns>
     public static List<int> Run(List<int> scores)
     {
         List<int> result = new();
@@ -17,20 +13,20 @@ public class BreakingTheRecords
         int badPerformanceRecord = 0;
         int minScore = 0;
         int maxScore = 0;
- 
-        for(int i = 0; i < scores.Count; i++)
+
+        for (int i = 0; i < scores.Count; i++)
         {
             if (i == 0)
             {
                 minScore = scores[i];
                 maxScore = scores[i];
             }
-            
+
             if (scores[i] < minScore)
             {
                 badPerformanceRecord++;
                 minScore = scores[i];
-             
+
             }
 
             else if (scores[i] > maxScore)

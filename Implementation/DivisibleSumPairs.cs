@@ -2,14 +2,10 @@
 
 public class DivisibleSumPairs
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="n"> 6 </param>
-    /// <param name="k"> 3 </param>
-    /// <param name="ar"> [ 1, 3, 2, 6, 1, 2 ]</param>
-    /// <returns> 5 </returns>
-
+    /// <param name="n"> the length of array ar </param>
+    /// <param name="k"> the integer divisor </param>
+    /// <param name="ar"> an array of integers </param>
+    /// <returns> the number of pairs </returns>
     public static int Run(int n, int k, List<int> ar)
     {
         int currentValue = 0;

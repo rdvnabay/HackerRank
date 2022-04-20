@@ -2,10 +2,13 @@
 
 public class GradingStudents
 {
+    /// <param name="grades"> the grades before rounding </param>
+    /// <returns> the grades after rounding as appropriate </returns>
     public static List<int> Run(List<int> grades)
     {
         int roundedNote = 0;
         int increaseNote = 0;
+
         for (int i = 0; i < grades.Count; i++)
         {
             if (grades[i] <= 35)
