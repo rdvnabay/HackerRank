@@ -24,7 +24,7 @@
 - [x] [Bill Division](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/BillDivision.cs)
 - [x] [Sales by Match](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/SalesByMatch.cs)
 - [x] [Drawing Book](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/DrawingBook.cs) 
-- [ ] Counting Valleys
+- [ ] [Counting Valleys](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/CountingValleys.cs)
 - [x] [Electronics Shop](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/ElectronicsShop.cs)
 - [x] [Cats and a Mouse](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/CatsAndAMouse.cs)
 - [ ] Forming a Magic Square

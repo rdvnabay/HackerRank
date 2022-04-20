@@ -73,7 +73,7 @@ int output_20 = SalesByMatch.Run(9, new() { 10, 20, 20, 10, 10, 30, 50, 10, 20 }
 int output_21 = DrawingBook.Run(6, 2); //output: 1
 
 //Chapter 22: Counting Valleys
-int output_22 = CountingValleys.Run(8, "UDDDUDUU");
+int output_22 = CountingValleys.Run(8, "UDDDUDUU"); //output: 1
 
 //Chapter 23: Electronics Shop
 int output_23 = ElectronicsShop.Run(new[] { 3, 1 }, new[] { 5, 2, 8 }, 10); //output: 9

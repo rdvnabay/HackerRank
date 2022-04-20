@@ -7,24 +7,34 @@ public class CountingValleys
     /// <returns> the number of valleys traversed </returns>
     public static int Run(int steps, string path)
     {
-        int first = path[0];
-        int last = path[steps - 1];
+        var hikeCoordinates = new List<int>();
+        int coordinate = 0;
+        int numberOfValleysTraversed = 0;
 
-        int counter = 0;
-        int startPoint = path[0];
-        int i = 0;
-        do
+        foreach (var p in path)
         {
-            i++;
-            counter++;
+            if (p == 'U')
+                coordinate++;
+
+            else if (p == 'D')
+                coordinate--;
+
+            hikeCoordinates.Add(coordinate);
         }
-        while (startPoint == path[i]);
 
-        if (first != last)
-            counter--;
+        for (int i = 0; i < hikeCoordinates.Count; i++)
+        {
+            if (i > 0)
+            {
+                int prev = hikeCoordinates[i - 1];
 
-        Console.WriteLine("c" + counter);
-        return counter;
+                if (hikeCoordinates[i] == 0)
+                    if (prev == -1)
+                        numberOfValleysTraversed++;
+            }
+        }
+
+        return numberOfValleysTraversed;
     }
 }
 
