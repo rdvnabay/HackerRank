@@ -2,13 +2,8 @@
 
 public class DiagonalDifference
 {
-    /*
-     Given a square matrix, calculate the absolute difference between the sums of its diagonals.
-     For example, the square matrix arr is shown below: 
-      11 2 4
-       4 5 6
-      10 8 -12
-     */
+    /// <param name="arr"> an array of integers </param>
+    /// <returns> the absolute diagonal difference </returns>
     public static int Run(List<List<int>> arr)
     {
         int scoreA = 0;

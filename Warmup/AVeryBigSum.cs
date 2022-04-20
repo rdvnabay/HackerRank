@@ -1,10 +1,8 @@
 ﻿namespace Warmup;
 public class AVeryBigSum
 {
-    /*
-     In this challenge, you are required to calculate and print the sum of the elements in an array,
-     keeping in mind that some of those integers may be quite large.
-     */
+    /// <param name="ar"> an array of integers </param>
+    /// <returns> the sum of all array elements </returns>
     public static long Run(List<long> ar)
     {
         long total = 0;

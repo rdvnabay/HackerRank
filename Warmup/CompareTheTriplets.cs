@@ -2,6 +2,9 @@
 
 public class CompareTheTriplets
 {
+    /// <param name="a"> Alice's challenge rating </param>
+    /// <param name="b"> Bob's challenge rating </param>
+    /// <returns> Alice's score is in the first position, and Bob's score is in the second </returns>
     public static List<int> Run(List<int> a, List<int> b)
     {
         var list = new List<int>();
