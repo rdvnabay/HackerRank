@@ -1,28 +1,25 @@
 ## Warmup
 
-|Level|Name                 |Solution|
-|-----|---------------------|--------|
-|Easy |Solve Me First       |✔      |
-|Easy |Simple Array Sum     |✔      |
-|Easy |Compare the Triplets |✔      |
-|Easy |A Very Big Sum       |✔      |
-|Easy |Diagonal Difference  |✔      |
-|Easy |Plus Minus           |✔      |
-|Easy |Mini-Max Sum         |✔      |
-|Easy |Birthday Cake Candles|✔      |
-|Easy |Time Conversion      |✔      |
+- [x] [Solve Me First](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Warmup/SolveMeFirst.cs)
+- [x] [Simple Array Sum](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Warmup/SimpleArraySum.cs) 
+- [x] [Compare the Triplets](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Warmup/CompareTheTriplets.cs)
+- [x] [A Very Big Sum](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Warmup/AVeryBigSum.cs) 
+- [x] [Diagonal Difference](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Warmup/DiagonalDifference.cs)
+- [x] [Plus Minus](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Warmup/PlusMinus.cs)
+- [x] [Mini-Max Sum](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Warmup/MiniMaxSum.cs)
+- [x] [Birthday Cake Candles](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Warmup/BirthdayCakeCandles.cs)
+- [x] [Time Conversion](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Warmup/TimeConversion.cs)
 
-## Implemantation
+## Implementation
 
-|Level|Name                     |Solution|
-|-----|-------------------------|--------|
-|Easy |Grading Students         |✔      |
-|Easy |Apple and Orange         |✔      |
-|Easy |Number Line Jumps        |✔      |
-|Easy |Between Two Sets         |✔      |
-|Easy |Breaking the Records     |✔      |
-|Easy |Subarray Division        |✔      |
-|Easy |Divisible Sum Pairs      |✔      |
-|Easy |Migratory Birds          |✔      |
-|Easy |[][Day of the Programmer] |❌
-|Easy |[https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/BillDivision.cs][Bill Division] |✔️
+- [x] [Grading Students](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/GradingStudents.cs)     
+- [x] [Apple and Orange](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/AppleAndOrange.cs)     
+- [x] [Number Line Jumps](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/NumberLineJumps.cs)    
+- [x] [Between Two Sets](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/BetweenTwoSets.cs)     
+- [x] [Breaking the Records](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/BreakingTheRecords.cs) 
+- [x] [Subarray Division](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/SubarrayDivision.cs)    
+- [x] [Divisible Sum Pairs](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/DivisibleSumPairs.cs)  
+- [x] [Migratory Birds](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/MigratoryBirds.cs)      
+- [ ] Day of the Programmer
+- [x] [Bill Division](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/BillDivision.cs)
+
