@@ -7,7 +7,24 @@ public class DrawingBook
     /// <returns> the minimum number of pages to turn </returns>
     public static int Run(int n, int p)
     {
-        return 0;
+        int pageTurnCount = 0;
+        int findStartOfBook = 0;
+        int findEndOfBook = 0;
+
+        for (int i = 2; i <= n; i += 2)
+        {
+            pageTurnCount++;
+            int leftPageOfTheBook = i;
+            int rightPageOfTheBook = i + 1;
+
+            if (p == leftPageOfTheBook || p == rightPageOfTheBook)
+                findStartOfBook = pageTurnCount;
+
+            if (n == leftPageOfTheBook || n == rightPageOfTheBook)
+                findEndOfBook = pageTurnCount - findStartOfBook;
+        }
+
+        return findStartOfBook < findEndOfBook ? findStartOfBook : findEndOfBook;
     }
 }
 
