@@ -82,6 +82,12 @@ int output_23 = ElectronicsShop.Run(new[] { 3, 1 }, new[] { 5, 2, 8 }, 10); //ou
 string output_24 = CatsAndAMouse.Run(1, 2, 3); //output: "Cat B"
 
 //Chapter 25: Forming a Magic Square
+int output_25 = FormingAMagicSquare.Run(new List<List<int>>
+{
+    new (){4, 8, 2},
+    new (){4, 5, 7},
+    new (){6, 1, 6}
+}); //output: 4
 
 //Chapter 26: Picking Numbers
 int output_26 = PickingNumbers.Run(new() { 4, 6, 5, 3, 3, 1 }); //output: 3
@@ -96,6 +102,7 @@ int output_28 = TheHurdleRace.Run(4, new() { 1, 6, 3, 5, 2 }); //output: 2
 int ouput_29 = DesignerPDFViewer.Run(new() { 1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 }, "abc"); //output: 9
 
 //Chaper 30: Utopian Tree
+int output_30 = UtopianTree.Run(4);
 
 //Chapter 31: Angry Professor
 string output_31 = AngryProfessor.Run(3, new() { -1, -3, 4, 2 }); //output: "NO"

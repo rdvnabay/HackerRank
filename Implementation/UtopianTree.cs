@@ -6,6 +6,17 @@ public class UtopianTree
     /// <returns> int: the height of the tree after the given number of cycles </returns>
     public static int Run(int n)
     {
-        return 0;
+        int treeLength = 0;
+
+        for (int i = 0; i <= n; i++)
+        {
+            if (i % 2 == 0)
+                treeLength += 1;
+
+            if (i % 2 == 1)
+                treeLength *= 2;
+        }
+
+        return treeLength;
     }
 }
