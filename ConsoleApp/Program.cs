@@ -154,6 +154,10 @@ long output_45 = RepeatedString.Run("aba", 10); //output: 7
 //Chapter 46: Jumping on the Clouds
 int output_46 = JumpingOnTheClouds.Run(new() { 0, 0, 0, 1, 0, 0 }); //output: 3
 
+//Chapter 47: Equalize the Array
+int output_47 = EqualizeTheArray.Run(new() { 3, 3, 2, 1, 3 }); //output: 2
+
+
 
 
 

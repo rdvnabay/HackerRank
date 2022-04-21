@@ -49,3 +49,4 @@
 - [ ] Non-Divisible Subset
 - [x] [Repeated String](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/RepeatedString.cs)
 - [x] [Jumping on the Clouds](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/JumpingOnTheClouds.cs)
+- [x] [Equalize the Array](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/EqualizeTheArray.cs)
