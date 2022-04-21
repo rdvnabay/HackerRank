@@ -157,6 +157,10 @@ int output_46 = JumpingOnTheClouds.Run(new() { 0, 0, 0, 1, 0, 0 }); //output: 3
 //Chapter 47: Equalize the Array
 int output_47 = EqualizeTheArray.Run(new() { 3, 3, 2, 1, 3 }); //output: 2
 
+//Chapter 48: ACM ICPC Team
+List<int> output_48 = ACM_ICPCTeam.Run(new() { "10101", "11100", "11010", "00101" }); //output: 5 2
+Console.WriteLine($"output_48 {String.Join(" ", output_48)}");
+
 
 
 

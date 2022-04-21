@@ -50,3 +50,7 @@
 - [x] [Repeated String](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/RepeatedString.cs)
 - [x] [Jumping on the Clouds](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/JumpingOnTheClouds.cs)
 - [x] [Equalize the Array](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/EqualizeTheArray.cs)
+- [ ] Queen's Attack II
+- [x] [ACM ICPC Team](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/ACM_ICPCTeam.cs)
+
+
