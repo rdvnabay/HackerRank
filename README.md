@@ -43,7 +43,7 @@
 - [x] [Find Digits](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/FindDigits.cs)
 - [x] [Extra Long Factorials](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/ExtraLongFactorials.cs)
 - [ ] Append and Delete
-- [ ] Sherlock and Squares
+- [x] [Sherlock and Squares](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/SherlockAndSquares.cs)
 - [x] [Library Fine](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/LibraryFine.cs)
 - [x] [Cut the sticks](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/CutTheSticks.cs)
 - [ ] Non-Divisible Subset

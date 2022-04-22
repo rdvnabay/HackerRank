@@ -8,14 +8,18 @@ public class SherlockAndSquares
     public static int Run(int a, int b)
     {
         int numberOfSquareIntegersInTheRange = 0;
+        int i = a;
 
-        for (int i = a; i <= b; i++)
+        while (i <= b)
         {
             if (Math.Sqrt(i) % 1 == 0)
+            {
+                i = (int)Math.Pow(Math.Sqrt(i) + 1, 2);
                 numberOfSquareIntegersInTheRange++;
-
+            }
+            else
+                i++;
         }
-
         return numberOfSquareIntegersInTheRange;
     }
 }
