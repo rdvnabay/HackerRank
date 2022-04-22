@@ -8,23 +8,6 @@ public class SaveThePrisoner
     /// <returns> int: the chair number of the prisoner to warn </returns>
     public static int Run(int n, int m, int s)
     {
-        int currentPrisoner = 0;
-        for (int i = s; i <= n; i++)
-        {
-            if (m == 0)
-            {
-                currentPrisoner = i - 1;
-                break;
-            }
-            else
-            {
-                if (i == n)
-                    i = 0;
-
-                m--;
-            }
-        }
-
-        return currentPrisoner;
+        return ((s - 1 + m - 1) % n) + 1;
     }
 }

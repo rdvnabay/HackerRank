@@ -6,7 +6,7 @@ public class ACM_ICPCTeam
     /// <returns> int[2]: the maximum topics and the number of teams that know that many topics </returns>
     public static List<int> Run(List<string> topic)  //"10101", "11100", "11010", "00101" 
     {
-        Dictionary<string, int> newList = new Dictionary<string, int>();
+        Dictionary<string, int> matches = new Dictionary<string, int>();
         int numberOfKnownIssues = 0;
 
         for (int i = 0; i < topic.Count - 1; i++)
@@ -23,12 +23,12 @@ public class ACM_ICPCTeam
                         numberOfKnownIssues++;
                 }
 
-                newList.Add($"{i + 1},{j + 1}", numberOfKnownIssues);
+                matches.Add($"{i + 1},{j + 1}", numberOfKnownIssues);
                 numberOfKnownIssues = 0;
             }
         }
-        var maxNumberOfTopicsKnown = newList.Max(x => x.Value);
-        var numberOfTeamsThatKnowTheMaxNumberOfTopics = newList.Where(x => x.Value == maxNumberOfTopicsKnown).Count();
+        var maxNumberOfTopicsKnown = matches.Max(x => x.Value);
+        var numberOfTeamsThatKnowTheMaxNumberOfTopics = matches.Where(x => x.Value == maxNumberOfTopicsKnown).Count();
 
         return new List<int>() { maxNumberOfTopicsKnown, numberOfTeamsThatKnowTheMaxNumberOfTopics };
     }

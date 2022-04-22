@@ -36,7 +36,7 @@
 - [x] [Angry Professor](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/AngryProfessor.cs)
 - [ ] Beautiful Days at the Movies
 - [x] [Viral Advertising](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/ViralAdvertising.cs)
-- [ ] Save the Prisoner
+- [x] [Save the Prisoner](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/SaveThePrisoner.cs)
 - [ ] Circular Array Rotation
 - [x] [Sequence Equation](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/SequenceEquation.cs)
 - [ ] Jumping on the Clouds: Revisited
