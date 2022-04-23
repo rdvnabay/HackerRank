@@ -161,6 +161,12 @@ int output_47 = EqualizeTheArray.Run(new() { 3, 3, 2, 1, 3 }); //output: 2
 List<int> output_48 = ACM_ICPCTeam.Run(new() { "10101", "11100", "11010", "00101" }); //output: 5 2
 Console.WriteLine($"output_48 {String.Join(" ", output_48)}");
 
+//Chapter 49: Taum and B'day
+long output_49 = TaumAndBday.Run(3, 5, 3, 4, 1);
+
+//Chapter 50: Organizing Containers of Balls
+string output_50 = OrganizingContainersOfBalls.Run(new List<List<int>> { new() { 0, 2, 1 }, new() { 1, 1, 1 }, new() { 2, 0, 0 } });
+
 
 
 

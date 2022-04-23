@@ -52,5 +52,6 @@
 - [x] [Equalize the Array](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/EqualizeTheArray.cs)
 - [ ] Queen's Attack II
 - [x] [ACM ICPC Team](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/ACM_ICPCTeam.cs)
+- [x] [Taum and B'day](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/TaumAndBday.cs)
 
 
