@@ -14,7 +14,7 @@ long output_4 = AVeryBigSum.Run(new() { 1000000001, 1000000002, 1000000003, 1000
 
 //Chapter 5: Diagonal Difference
 int output_5 = DiagonalDifference.Run(new List<List<int>> { new() { 11, 2, 4 },
-                                                            new() { 4, 5, 6 }, 
+                                                            new() { 4, 5, 6 },
                                                             new() { 10, 8, -12 } }); //output: 15
 
 //Chapter 6: Plus Minus
