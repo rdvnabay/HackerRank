@@ -133,7 +133,7 @@ int output_38 = FindDigits.Run(1012); //output: 3
 ExtraLongFactorials.Run(25); //output: 15511210043330985984000000
 
 //Chapter 40: Append and Delete
-string output_40 = AppendAndDelete.Run("hackerhappy", "hackerrank", 9); //output: Yes
+string output_40 = AppendAndDelete.Run("zzzzz", "zzzzzzz", 4); //output: Yes
 
 //Chapter 41: Sherlock and Squares
 int output_41 = SherlockAndSquares.Run(3, 9); //output: 2
@@ -167,6 +167,8 @@ long output_49 = TaumAndBday.Run(3, 5, 3, 4, 1);
 //Chapter 50: Organizing Containers of Balls
 string output_50 = OrganizingContainersOfBalls.Run(new List<List<int>> { new() { 0, 2, 1 }, new() { 1, 1, 1 }, new() { 2, 0, 0 } });
 
+//Chapter 51: Encryption
+string output_51 = Encryption.Run("haveaniceday");
 
 
 

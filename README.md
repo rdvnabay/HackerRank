@@ -53,5 +53,7 @@
 - [ ] Queen's Attack II
 - [x] [ACM ICPC Team](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/ACM_ICPCTeam.cs)
 - [x] [Taum and B'day](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/TaumAndBday.cs)
+- [ ] Organizing Containers of Balls
+- [x] [Encryption](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Encryption.cs)
 
 
