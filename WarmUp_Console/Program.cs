@@ -1,5 +1,4 @@
-﻿using Warmup;
-
+﻿using Solutions;
 
 //Chapter 1: Solve Me First
 int output_1 = SolveMeFirst.Run(3, 5); //output: 8

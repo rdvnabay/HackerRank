@@ -1,9 +1,8 @@
-﻿using Implementation;
+﻿using Solutions;
 
 
 //Chapter 10: Grading Students
 List<int> output_10 = GradingStudents.Run(new() { 73, 67, 38, 33 }); //output: 75 67 40 33
-output_10.ForEach((item => Console.WriteLine(item)));
 
 //Chapter 11: Apple and Orange
 AppleAndOrange.Run(7, 11, 5, 15, new() { -2, 2, 1 }, new() { 5, -6 }); //output: 1 1
@@ -16,11 +15,9 @@ int output_13 = BetweenTwoSets.Run(new() { 2, 4 }, new() { 16, 32, 96 }); //outp
 
 //Chapter 14: Breaking the Records
 List<int> output_14 = BreakingTheRecords.Run(new() { 10, 5, 20, 20, 4, 5, 2, 25, 1 }); //output: 2 4
-Console.WriteLine(String.Join(" ", output_14));
 
 //Chapter 15: Subarray Division
 int output_15 = SubarrayDivision.Run(new() { 1, 2, 1, 3, 2 }, 3, 2); //output: 2
-Console.WriteLine(output_15);
 
 //Chapter 16: Divisible Sum Pairs
 int output_16 = DivisibleSumPairs.Run(6, 3, new() { 1, 3, 2, 6, 1, 2 }); //output: 5
@@ -88,7 +85,6 @@ int output_34 = SaveThePrisoner.Run(5, 2, 1); //output: 2
 
 //Chaper 36: Sequence Equation
 List<int> output_36 = SequenceEquation.Run(new() { 5, 2, 1, 3, 4 }); //output [4,2,5,1,3]
-Console.WriteLine(String.Join(" ", output_36));
 
 //Chapter 37: Jumping on the Clouds: Revisited 
 //int output_37 = JumpingOnTheCloudsRevisited.Run(new int[] { 1, 1, 1, 0, 1, 1, 0, 0, 0, 0 }, 3); //bug
@@ -126,7 +122,6 @@ int output_47 = EqualizeTheArray.Run(new() { 3, 3, 2, 1, 3 }); //output: 2
 
 //Chapter 48: ACM ICPC Team
 List<int> output_48 = ACM_ICPCTeam.Run(new() { "10101", "11100", "11010", "00101" }); //output: 5 2
-Console.WriteLine($"output_48 {String.Join(" ", output_48)}");
 
 //Chapter 49: Taum and B'day
 long output_49 = TaumAndBday.Run(3, 5, 3, 4, 1);
