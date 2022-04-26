@@ -6,26 +6,47 @@ public class ModifiedKaprekarNumbers
     /// <param name="q"> int q: the upper limit </param>
     public static void Run(int p, int q)
     {
-        int squareOfNumber = 0;
+        bool validRange = false;
+        long squareOfNumber = 0;
+
         for (int i = p; i <= q; i++)
         {
-            squareOfNumber = (int)Math.Pow(i, 2);
-            if (squareOfNumber == Sum(squareOfNumber))
+            squareOfNumber = (long)Math.Pow(i, 2);
+            if (i == SumOfItsSquare(squareOfNumber))
             {
-
-            }
-
-            //if(i=)
+                validRange = true;
+                Console.Write(i + " ");
+            }          
         }
+
+        if (!validRange)
+            Console.WriteLine("INVALID RANGE");
     }
 
-    public static int Sum(int number)
+    private static int SumOfItsSquare(long number)
     {
         int total = 0;
+        int index = 0;
+        string temp = "";
+
+        int cutInHalf = number.ToString().Length == 1
+            ? 1
+            : number.ToString().Length / 2;
+
         foreach (char item in number.ToString())
         {
-            total += int.Parse(item.ToString());
+            temp += item.ToString();
+            index++;
+
+            if (index == cutInHalf)
+            {
+                total += int.Parse(temp);
+                temp = "";
+            }
         }
-        return total;
+
+        return temp == ""
+            ? total
+            : total += int.Parse(temp);
     }
 }

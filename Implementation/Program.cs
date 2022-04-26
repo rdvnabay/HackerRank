@@ -132,10 +132,11 @@ string output_50 = OrganizingContainersOfBalls.Run(new List<List<int>> { new() {
 string output_51 = Encryption.Run("haveaniceday");
 
 //Chapter 52: Bigger is Greater
-string output_52 = BiggerIsGreater.Run("dkhc");
+//string output_52 = BiggerIsGreater.Run("dkhc");
 
 //Chapter 53: Modified Kaprekar Numbers
-ModifiedKaprekarNumbers.Run(1,100);
+ModifiedKaprekarNumbers.Run(1, 100);
+
 
 
 

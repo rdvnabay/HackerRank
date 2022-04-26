@@ -55,5 +55,7 @@
 - [x] [Taum and B'day](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/TaumAndBday.cs)
 - [ ] Organizing Containers of Balls
 - [x] [Encryption](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/Encryption.cs)
+- [ ] Bigger is Greater
+- [ ] [Modified Kaprekar Numbers](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/ModifiedKaprekarNumbers.cs)
 
 
