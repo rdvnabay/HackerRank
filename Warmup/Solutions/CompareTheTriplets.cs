@@ -1,4 +1,4 @@
-﻿namespace Solutions;
+﻿namespace Warmup.Solutions;
 
 public class CompareTheTriplets
 {

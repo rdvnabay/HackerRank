@@ -1,4 +1,4 @@
-﻿using Solutions;
+﻿namespace Implementation.Solutions;
 
 public class ViralAdvertising
 {

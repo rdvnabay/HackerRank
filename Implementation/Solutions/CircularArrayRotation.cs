@@ -1,5 +1,4 @@
-﻿namespace Solutions;
-
+﻿namespace Implementation.Solutions;
 public class CircularArrayRotation
 {
     /// <param name="a"> int a[n]: the array to rotate </param>

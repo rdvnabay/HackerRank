@@ -1,5 +1,4 @@
-﻿using Solutions;
-
+﻿using Implementation.Solutions;
 
 //Chapter 10: Grading Students
 List<int> output_10 = GradingStudents.Run(new() { 73, 67, 38, 33 }); //output: 75 67 40 33
@@ -131,6 +130,14 @@ string output_50 = OrganizingContainersOfBalls.Run(new List<List<int>> { new() {
 
 //Chapter 51: Encryption
 string output_51 = Encryption.Run("haveaniceday");
+
+//Chapter 52: Bigger is Greater
+string output_52 = BiggerIsGreater.Run("dkhc");
+
+//Chapter 53: Modified Kaprekar Numbers
+ModifiedKaprekarNumbers.Run(1,100);
+
+
 
 
 

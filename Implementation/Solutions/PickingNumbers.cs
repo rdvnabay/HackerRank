@@ -1,4 +1,4 @@
-﻿namespace Solutions;
+﻿namespace Implementation.Solutions;
 
 public class PickingNumbers
 {

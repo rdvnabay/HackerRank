@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace Solutions;
+namespace Implementation.Solutions;
 
 public class ExtraLongFactorials
 {
