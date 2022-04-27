@@ -58,5 +58,6 @@
 - [ ] Bigger is Greater
 - [x] [Modified Kaprekar Numbers](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/ModifiedKaprekarNumbers.cs)
 - [x] [Beautiful Triplets](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/BeautifulTriplets.cs)
+- [x] [Minimum Distances](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/MinimumDistances.cs)
 
 

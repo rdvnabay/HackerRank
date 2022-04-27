@@ -140,6 +140,9 @@ ModifiedKaprekarNumbers.Run(1, 100);
 //Chapter 54: Beautiful Triplets
 int output_54 = BeautifulTriplets.Run(3, new() { 1, 2, 4, 5, 7, 8, 10 }); //output: 3
 
+//Chapyer 55: Minimum Distances
+int output_55 = MinimumDistances.Run(new() { 7, 1, 3, 4, 1, 7 });
+
 
 
 
