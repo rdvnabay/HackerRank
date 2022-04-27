@@ -137,6 +137,9 @@ string output_51 = Encryption.Run("haveaniceday");
 //Chapter 53: Modified Kaprekar Numbers
 ModifiedKaprekarNumbers.Run(1, 100);
 
+//Chapter 54: Beautiful Triplets
+int output_54 = BeautifulTriplets.Run(3, new() { 1, 2, 4, 5, 7, 8, 10 }); //output: 3
+
 
 
 
