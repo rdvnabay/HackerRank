@@ -143,7 +143,8 @@ int output_54 = BeautifulTriplets.Run(3, new() { 1, 2, 4, 5, 7, 8, 10 }); //outp
 //Chapyer 55: Minimum Distances
 int output_55 = MinimumDistances.Run(new() { 7, 1, 3, 4, 1, 7 });
 
-
+//Chapter 56: Halloween Sale
+int output_56 = HalloweenSale.Run(20, 3, 6, 80); //output :6
 
 
 
