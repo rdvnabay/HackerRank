@@ -146,6 +146,12 @@ int output_55 = MinimumDistances.Run(new() { 7, 1, 3, 4, 1, 7 });
 //Chapter 56: Halloween Sale
 int output_56 = HalloweenSale.Run(20, 3, 6, 80); //output :6
 
+//Chapter 57: The Time In Words
+string output_57 = TheTimeInWords.Run(3, 47);
+
+//Chapter 58: Chocolate Feast
+int output_58 = ChocolateFeast.Run(15, 3, 2);
+
 
 
 

@@ -16,8 +16,8 @@ public class HalloweenSale
 
         while (s >= p)
         {
-            s -= p;
             numberOfGamesCanBuy++;
+            s -= p;
             p -= d;
 
             if (p < m)
