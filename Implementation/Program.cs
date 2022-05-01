@@ -47,9 +47,9 @@ string output_24 = CatsAndAMouse.Run(1, 2, 3); //output: "Cat B"
 //Chapter 25: Forming a Magic Square
 int output_25 = FormingAMagicSquare.Run(new List<List<int>>
 {
-    new (){4, 8, 2},
-    new (){4, 5, 7},
-    new (){6, 1, 6}
+    new (){4, 5, 8},
+    new (){2, 4, 1},
+    new (){1, 9, 7}
 }); //output: 4
 
 //Chapter 26: Picking Numbers
@@ -151,6 +151,17 @@ string output_57 = TheTimeInWords.Run(3, 47);
 
 //Chapter 58: Chocolate Feast
 int output_58 = ChocolateFeast.Run(15, 3, 2);
+
+//Chapter 59: Service Lane
+List<int> output_59 = ServiceLane.Run(8, new() { 2, 3, 1, 2, 3, 2, 3, 3 },
+    new List<List<int>> { new() { 0, 3 },
+                          new() { 4, 6 },
+                          new() { 6, 7 },
+                          new() { 3, 5 },
+                          new() { 0, 7 } });
+
+//Chapter 60: Lisa's Workbook
+int output_60 = LisasWorkbook.Run(5, 3, new() { 4, 2, 6, 1, 10 });
 
 
 

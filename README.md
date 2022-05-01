@@ -62,3 +62,4 @@
 - [x] [Halloween Sale](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/HalloweenSale.cs)
 - [ ] The Time in Words
 - [x] [Chocolate Feast](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/ChocolateFeast.cs)
+- [x] [Service Lane](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/ServiceLane.cs)
