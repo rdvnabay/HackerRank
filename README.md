@@ -29,7 +29,7 @@
 - [x] [Cats and a Mouse](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/CatsAndAMouse.cs)
 - [ ] Forming a Magic Square
 - [x] [Picking Numbers](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/PickingNumbers.cs)
-- [ ] Climbing the Leaderboard
+- [x] [Climbing the Leaderboard](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/ClimbingTheLeaderboard.cs)
 - [x] [The Hurdle Race](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/TheHurdleRace.cs)
 - [x] [Designer PDF Viewer](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/DesignerPDFViewer.cs)
 - [x] [Utopian Tree](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/UtopianTree.cs)

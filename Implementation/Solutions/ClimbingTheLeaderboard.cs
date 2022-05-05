@@ -7,42 +7,19 @@ public class ClimbingTheLeaderboard
     /// <returns> the player's rank after each new score </returns>
     public static List<int> Run(List<int> ranked, List<int> player)
     {
-        List<int> AliceRank = new();
+        var playerRank = new List<int>();
+        ranked = new HashSet<int>(ranked).OrderBy(x => x).ToList();
 
-
-        var rankingList = ranked
-            .GroupBy(x => x)
-            .ToDictionary(x => x.Key, x => x.Count());
-
-        //var liste = Recursive(rankingList, player, AliceRank);
-
-        return AliceRank;
-    }
-
-    public static List<int> Recursive(Dictionary<int, int> rankingList, List<int> player, List<int> AliceRank)
-    {
-        int counter = 0;
-        int climbingAttemptCount = 0;
-        int lastRank = rankingList.Count + 1;
-
-        foreach (var rank in rankingList)
+        int i = 0;
+        foreach (var playerPoint in player)
         {
-            if (player.Count > 4)
-                break;
+            while (i < ranked.Count && playerPoint >= ranked[i])
+                i++;
 
-            counter++;
-            if (player[climbingAttemptCount] >= rank.Key)
-            {
-                AliceRank.Add(counter);
-                break;
-            }
-
-            else
-                continue;
-
+            playerRank.Add(ranked.Count - i + 1);
         }
-        Recursive(rankingList, player, AliceRank);
-        return AliceRank;
+
+        return playerRank;
     }
 }
 
