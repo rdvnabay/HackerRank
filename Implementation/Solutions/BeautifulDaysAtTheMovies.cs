@@ -9,14 +9,18 @@ public class BeautifulDaysAtTheMovies
     public static int Run(int i, int j, int k)
     {
         int numberOfIntegerValues = 0;
+        int reverseNumber = 0;
+        double result;
+
+        Console.WriteLine(20 - '0');
 
         for (int number = i; number <= j; number++)
         {
-            int reverseNumber = int.Parse(number.ToString()
-                 .Reverse()
-                 .Aggregate("", (s, c) => s + c));
+            reverseNumber = number.ToString()
+                .Reverse()
+                .Aggregate(0, (sum, next) => 10 * sum + next - '0');
 
-            double result = Math.Abs((double)(number - reverseNumber) / (double)k);
+            result = Math.Abs((double)(number - reverseNumber) / (double)k);
 
             if (result - (int)result == 0)
                 numberOfIntegerValues++;

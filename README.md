@@ -34,7 +34,7 @@
 - [x] [Designer PDF Viewer](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/DesignerPDFViewer.cs)
 - [x] [Utopian Tree](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/UtopianTree.cs)
 - [x] [Angry Professor](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/AngryProfessor.cs)
-- [ ] Beautiful Days at the Movies
+- [x] [Beautiful Days at the Movies](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/BeautifulDaysAtTheMovies.cs)
 - [x] [Viral Advertising](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/ViralAdvertising.cs)
 - [x] [Save the Prisoner](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/SaveThePrisoner.cs)
 - [ ] Circular Array Rotation

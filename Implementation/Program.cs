@@ -167,8 +167,8 @@ int output_60 = LisasWorkbook.Run(5, 3, new() { 4, 2, 6, 1, 10 });
 int output_61 = FlatlandSpaceStations.Run(6, new int[] { 0, 1, 2, 4, 3, 5 });
 
 //Chapter 62: Fair Rations
-List<int> liste = new();
 string output_62 = FairRations.Run(new() { 2, 3, 4, 5, 6 });
+
 
 
 
