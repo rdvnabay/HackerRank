@@ -39,7 +39,7 @@
 - [x] [Save the Prisoner](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/SaveThePrisoner.cs)
 - [ ] Circular Array Rotation
 - [x] [Sequence Equation](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/SequenceEquation.cs)
-- [ ] Jumping on the Clouds: Revisited
+- [x] [Jumping on the Clouds: Revisited](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/JumpingOnTheCloudsRevisited.cs)
 - [x] [Find Digits](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/FindDigits.cs)
 - [x] [Extra Long Factorials](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/ExtraLongFactorials.cs)
 - [ ] Append and Delete

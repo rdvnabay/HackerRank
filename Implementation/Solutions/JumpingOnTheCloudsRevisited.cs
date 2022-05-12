@@ -7,6 +7,17 @@ public class JumpingOnTheCloudsRevisited
     /// <returns> int: the energy level remaining </returns>
     public static int Run(int[] c, int k)
     {
-        return 0;
+        int energy = 100;
+
+        int i = 0;
+        while (true)
+        {
+            energy = energy - 1 - (2 * c[i]);
+            i = (i + k) % c.Length;
+
+            if (i == 0)
+                break;
+        }
+        return energy;
     }
 }

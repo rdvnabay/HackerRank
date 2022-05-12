@@ -80,13 +80,13 @@ int output_33 = ViralAdvertising.Run(3); //output: 9
 int output_34 = SaveThePrisoner.Run(5, 2, 1); //output: 2
 
 //Chapter 35: Circular Array Rotation
-//List<int> output_35 = CircularArrayRotation.Run(new() { 3, 4, 5, 6 }, 2, new() { 1, 2 });
+List<int> output_35 = CircularArrayRotation.Run(new() { 3, 4, 5, 6 }, 2, new() { 1, 2 });
 
 //Chaper 36: Sequence Equation
 List<int> output_36 = SequenceEquation.Run(new() { 5, 2, 1, 3, 4 }); //output [4,2,5,1,3]
 
 //Chapter 37: Jumping on the Clouds: Revisited 
-//int output_37 = JumpingOnTheCloudsRevisited.Run(new int[] { 1, 1, 1, 0, 1, 1, 0, 0, 0, 0 }, 3); //bug
+int output_37 = JumpingOnTheCloudsRevisited.Run(new int[] { 1, 1, 1, 0, 1, 1, 0, 0, 0, 0 }, 3); 
 
 //Chapter 38: Find Digits
 int output_38 = FindDigits.Run(1012); //output: 3
