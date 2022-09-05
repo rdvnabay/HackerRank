@@ -2,7 +2,7 @@
 
 |     | Level  | Problem |
 |-----|--------|---------|
-| 1   | Easy   | [Grading Students](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/Solutions/GradingStudents.cs)     
+| 1   | Easy   | [Grading Students](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/GradingStudents.cs)     
 | 2   | Easy   | [Apple and Orange](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/AppleAndOrange.cs)     
 | 3   | Easy   | [Number Line Jumps](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/NumberLineJumps.cs)    
 | 4   | Easy   | [Between Two Sets](https://github.com/rdvnabay/hackerrank-algorithms/blob/master/Implementation/Solutions/BetweenTwoSets.cs)     

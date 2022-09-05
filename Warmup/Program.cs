@@ -28,3 +28,4 @@ BirthdayCakeCandles.Run(new() { 3, 2, 1, 3 });
 TimeConversion.Run("07:05:45PM");
 
 // 10: Staircase (Easy)
+Staircase.Run(4);
