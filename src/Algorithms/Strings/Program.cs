@@ -9,11 +9,11 @@ StrongPassword.Run(11, "#HackerRank");
 // 3: Two Characters (Easy)
 TwoCharacters.Run("beabeefeab");
 
-
-// 4: Caesar Cipher (Easy)
-
 // 5: Mars Exploration
 MarsExploration.Run("SOSSPSSQSSOR");
 
-// Two Strings 
+// Two Strings (Easy)
 TwoStrings.Run("ba", "cat");
+
+// Caesar Cipher (Easy)
+CaesarCipher.Run("abcdefghijklmnopqrstuvwxyz", 3);
