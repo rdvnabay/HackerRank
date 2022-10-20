@@ -14,3 +14,6 @@ TwoCharacters.Run("beabeefeab");
 
 // 5: Mars Exploration
 MarsExploration.Run("SOSSPSSQSSOR");
+
+// Two Strings 
+TwoStrings.Run("ba", "cat");
