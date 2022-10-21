@@ -17,3 +17,6 @@ TwoStrings.Run("ba", "cat");
 
 // Caesar Cipher (Easy)
 CaesarCipher.Run("abcdefghijklmnopqrstuvwxyz", 3);
+
+//Alternating Characters
+AlternatingCharacters.Run("AAA");
