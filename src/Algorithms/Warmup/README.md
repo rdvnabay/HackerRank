@@ -12,4 +12,3 @@
 | 7   | Easy   | [Mini-Max Sum](https://github.com/rdvnabay/hackerrank-algorithms/tree/master/src/Algorithms/Warmup/Solutions/MiniMaxSum.cs) | 
 | 8   | Easy   | [Birthday Cake Candles](https://github.com/rdvnabay/hackerrank-algorithms/tree/master/src/Algorithms/Warmup/Solutions/BirthdayCakeCandles.cs) | 
 | 9   | Easy   | [Time Conversion](https://github.com/rdvnabay/hackerrank-algorithms/tree/master/src/Algorithms/Warmup/Solutions/TimeConversion.cs) | 
-| 10  | Easy   | Staircase | 
