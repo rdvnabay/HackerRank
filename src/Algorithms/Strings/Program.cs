@@ -20,3 +20,6 @@ CaesarCipher.Run("abcdefghijklmnopqrstuvwxyz", 3);
 
 //Alternating Characters
 AlternatingCharacters.Run("AAA");
+
+//
+Pangrams.Run("The quick brown fox jumps over the lazy dog");
