@@ -4,19 +4,18 @@ public class StrangeCounter
 {
     public static long Run(long t)
     {
-        long output = 0;
-        long startTime = t / 2;
+        long initTime = 1;
+        long capacity = 3;
 
-
-        NextPeriod(startTime);
-            return 0;
-    }
-
-    public static void NextPeriod(long startTime)
-    {
-        while (startTime > 0)
+        while (t > initTime + capacity - 1)
         {
-            //output++;
+            initTime = initTime + capacity;
+            capacity = capacity * 2;
         }
+
+        long diff = t - initTime;
+        long result = capacity - diff;
+
+        return result;
     }
 }

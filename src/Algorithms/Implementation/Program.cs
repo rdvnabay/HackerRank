@@ -125,7 +125,7 @@ OrganizingContainersOfBalls.Run(new List<List<int>> { new() { 0, 2, 1 }, new() {
 Encryption.Run("haveaniceday");
 
 // 43: Bigger is Greater (Medium)
-BiggerIsGreater.Run("dkhc");
+//BiggerIsGreater.Run("dkhc");
 
 // 44: Modified Kaprekar Numbers (Easy)
 ModifiedKaprekarNumbers.Run(1, 100);
@@ -171,7 +171,7 @@ ServiceLane.Run(8, new() { 2, 3, 1, 2, 3, 2, 3, 3 },
 // 58: Happy Ladybugs (Easy)
 
 // 59: Strange Counter (Easy)
-StrangeCounter.Run(4);
+StrangeCounter.Run(9);
 
 // 60: 3D Surface Area (Medium)
 
