@@ -15,8 +15,9 @@ public class MarsExploration
 
         foreach (var item in differentMessages)
         {
-            if (item[0] != 'S' || item[1] != 'O' || item[2] != 'S')
-                output++; ;
+            if (item[0] != 'S') output++;
+            if (item[1] != 'O') output++;
+            if (item[2] != 'S') output++;
         }
 
         return output;

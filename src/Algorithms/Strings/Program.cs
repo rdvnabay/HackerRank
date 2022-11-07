@@ -10,7 +10,7 @@ StrongPassword.Run(11, "#HackerRank");
 TwoCharacters.Run("beabeefeab");
 
 // 5: Mars Exploration
-MarsExploration.Run("SOSSPSSQSSOR");
+MarsExploration.Run("SOSOOSOSOSOSOSSOSOSOSOSOSOS");
 
 // Two Strings (Easy)
 TwoStrings.Run("ba", "cat");
