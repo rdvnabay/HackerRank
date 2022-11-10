@@ -10,6 +10,7 @@
 | 5   | Easy   | [Pangrams](https://github.com/rdvnabay/hackerrank-algorithms/tree/master/src/Algorithms/Strings/Solutions/Pangrams.cs) |
 | 6   | Easy   | [Strong Password](https://github.com/rdvnabay/hackerrank-algorithms/tree/master/src/Algorithms/Strings/Solutions/StrongPassword.cs) |
 | 7   | Easy   | [Two Strings](https://github.com/rdvnabay/hackerrank-algorithms/tree/master/src/Algorithms/Strings/Solutions/TwoStrings.cs) | 
+| 8   | Easy   | [Super Reduced String](https://github.com/rdvnabay/hackerrank-algorithms/tree/master/src/Algorithms/Strings/Solutions/SuperReducedString.cs) | 
 
  
 
