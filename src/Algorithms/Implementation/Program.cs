@@ -72,7 +72,7 @@ ViralAdvertising.Run(3);
 SaveThePrisoner.Run(5, 2, 1);
 
 // 25: Circular Array Rotation (Easy)
-CircularArrayRotation.Run(new() { 3, 4, 5, 6 }, 2, new() { 1, 2 });
+CircularArrayRotation.Run(new() { 3, 4, 5 }, 2, new() { 1, 2 });
 
 // 26: Sequence Equation (Easy)
 SequenceEquation.Run(new() { 5, 2, 1, 3, 4 });
