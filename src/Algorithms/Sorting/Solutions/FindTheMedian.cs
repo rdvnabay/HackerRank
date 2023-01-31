@@ -1,4 +1,4 @@
-﻿namespace Sorting.Solution;
+﻿namespace Sorting.Solutions;
 
 public class FindTheMedian
 {
