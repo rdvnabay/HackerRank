@@ -8,14 +8,13 @@ public class CircularArrayRotation
     /// <returns> int[q]: the values in the rotated as requested in m </returns>
     public static List<int> Run(List<int> a, int k, List<int> queries)
     {
-        int listCount = a.Count;
-        k = k % listCount;
+        k = k % a.Count;
 
         List<int> result = new List<int>(queries.Count);
 
         foreach (int query in queries)
         {
-            int newIndex = (query - k + listCount) % listCount;
+            int newIndex = (query - k + a.Count) % a.Count;
             result.Add(a[newIndex]);
         }
 
