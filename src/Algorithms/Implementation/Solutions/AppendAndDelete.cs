@@ -8,50 +8,16 @@ public class AppendAndDelete
     /// <returns> string: either Yes or No </returns>
     public static string Run(string s, string t, int k)
     {
-        int firstWordDiffCount = s.Length;
-        int secondWordDiffCount = t.Length;
-
-        for (int i = 0; i < s.Length; i++)
+        int commonLetterCount = 0;
+        for (int i = 0; i < Math.Min(s.Length, t.Length); i++)
         {
-            if (secondWordDiffCount == 0)
-                break;
-
-            if (s[i] != t[i])
-                break;
-
             if (s[i] == t[i])
-            {
-                firstWordDiffCount--;
-                secondWordDiffCount--;
-            }
+                commonLetterCount++;
+            else
+                break;
         }
 
-        if (firstWordDiffCount + secondWordDiffCount == 0)
-            return "Yes";
-
-        if (firstWordDiffCount + secondWordDiffCount == k)
-            return "Yes";
-
-        int diff = firstWordDiffCount - secondWordDiffCount;
-
-        int result = (k - diff) % 2;
-
-        return "No";
-
-        //if (firstWordDiffPart > secondWordDiffPart)
-        //    if (firstWordDiffPart - k <= secondWordDiffPart)
-        //        return "Yes";
-
-        //if (firstWordDiffPart < secondWordDiffPart)
-        //    if (firstWordDiffPart + k >= secondWordDiffPart)
-        //        return "Yes";
-
-        //if (secondWordDiffPart == 0 && k >= firstWordDiffPart)
-        //    return "Yes";
-
-        //if (firstWordDiffPart + secondWordDiffPart == k)
-        //    return "Yes";
-
-        //return "No";
+        int remainingLetterCount = (s.Length - commonLetterCount) + (t.Length - commonLetterCount);
+        return remainingLetterCount <= k && (k - remainingLetterCount) % 2 == 0 || k >= s.Length + t.Length ? "Yes" : "No";
     }
 }

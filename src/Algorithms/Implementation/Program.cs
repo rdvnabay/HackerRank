@@ -87,7 +87,7 @@ FindDigits.Run(1012);
 ExtraLongFactorials.Run(25);
 
 // 30: Append and Delete (Easy)
-AppendAndDelete.Run("aaaaaaaaaa", "aaaaa", 7);
+AppendAndDelete.Run("ashley", "ash", 7);
 
 // 31: Sherlock and Squares (Easy)
 SherlockAndSquares.Run(3, 9);
