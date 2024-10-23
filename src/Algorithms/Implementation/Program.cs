@@ -1,5 +1,7 @@
 ﻿using Implementation.Solutions;
 
+HappyLadybugs.Run("AABBC_C");
+
 // 1: Grading Students (Easy)
 GradingStudents.Run(new() { 73, 67, 38, 33 });
 
@@ -198,3 +200,4 @@ FormingAMagicSquare.Run(new List<List<int>>
     new() { 3, 5, 7 },
     new() { 8, 1, 5 }
 });
+
