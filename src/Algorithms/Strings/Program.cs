@@ -21,3 +21,5 @@ SuperReducedString.Run("aaabccddd");
 FunnyString.Run("bcxz");
 
 HackerRankInAString.Run("hackerworld");
+
+TheLoveLetterMystery.Run("abcd");
