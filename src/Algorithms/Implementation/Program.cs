@@ -147,16 +147,19 @@ ChocolateFeast.Run(15, 3, 2);
 
 // 50: Service Lane (Easy)
 ServiceLane.Run(8, new() { 2, 3, 1, 2, 3, 2, 3, 3 },
-    new List<List<int>> { new() { 0, 3 },
-                          new() { 4, 6 },
-                          new() { 6, 7 },
-                          new() { 3, 5 },
-                          new() { 0, 7 }
+    new List<List<int>>
+    {
+        new() { 0, 3 },
+        new() { 4, 6 },
+        new() { 6, 7 },
+        new() { 3, 5 },
+        new() { 0, 7 }
     });
 
 // 51: Lisa's Workbook (Easy)
 
 // 52: Flatland Space Stations (Easy)
+FlatlandSpaceStations.Run(5, new[] { 0, 4 });
 
 // 53: Fair Rations (Easy)
 
@@ -165,6 +168,7 @@ ServiceLane.Run(8, new() { 2, 3, 1, 2, 3, 2, 3, 3 },
 // 55: Cavity Map (Easy)
 
 // 56: Manasa and Stones (Easy)
+ManasaandStones.Run(4, 10, 100);
 
 // 57: The Grid Search (Medium)
 
@@ -190,18 +194,7 @@ StrangeCounter.Run(9);
 // 67: Forming a Magic Square (Medium)
 FormingAMagicSquare.Run(new List<List<int>>
 {
-    new (){4, 9, 2},
-    new (){3, 5, 7},
-    new (){8, 1, 5}
+    new() { 4, 9, 2 },
+    new() { 3, 5, 7 },
+    new() { 8, 1, 5 }
 });
-
-
-
-
-
-
-
-
-
-
-
