@@ -168,7 +168,7 @@ FlatlandSpaceStations.Run(5, new[] { 0, 4 });
 // 55: Cavity Map (Easy)
 
 // 56: Manasa and Stones (Easy)
-ManasaandStones.Run(4, 10, 100);
+ManasaAndStones.Run(4, 10, 100);
 
 // 57: The Grid Search (Medium)
 

@@ -1,6 +1,6 @@
 ﻿namespace Implementation.Solutions;
 
-public class ManasaandStones
+public class ManasaAndStones
 {
     /// <summary>
     /// 
