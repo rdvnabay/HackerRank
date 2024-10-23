@@ -4,26 +4,12 @@ public class Staircase
 {
     public static void Run(int n)
     {
-        string output = "";
-        for (int i = 0; i <= n; i++) 
+        string result = string.Empty;
+
+        for (int i = 1, j = n - 1; i <= n && j >= 0; i++, j--)
         {
-            for (int j = 0; j < i; j++)
-            {
-                output += "*";
-            }
-            Console.WriteLine(output.PadLeft(n-i,' '));
-            output = "";
+            result = new string(' ', j) + new string('#', i);
+            Console.WriteLine(result);
         }
-
-        Console.ReadKey(); 
-
-        //string output = "****";
-        //for (int i = 1; i <= n; i++)
-        //{
-        //    output = output.PadLeft(n - i, ' ');
-        //    Console.WriteLine(output);
-        //}
-
-        Console.ReadLine();
     }
 }
