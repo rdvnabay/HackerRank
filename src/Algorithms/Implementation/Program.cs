@@ -164,8 +164,8 @@ ServiceLane.Run(8, new() { 2, 3, 1, 2, 3, 2, 3, 3 },
 FlatlandSpaceStations.Run(5, new[] { 0, 4 });
 
 // 53: Fair Rations (Easy)
+FairRations.Run(new List<int>() { 2, 3, 4, 5, 6 });
 
-// 54: Fair Rations (Easy)
 
 // 55: Cavity Map (Easy)
 
@@ -200,4 +200,3 @@ FormingAMagicSquare.Run(new List<List<int>>
     new() { 3, 5, 7 },
     new() { 8, 1, 5 }
 });
-
