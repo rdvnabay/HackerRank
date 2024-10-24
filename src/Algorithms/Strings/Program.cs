@@ -23,3 +23,5 @@ FunnyString.Run("bcxz");
 HackerRankInAString.Run("hackerworld");
 
 TheLoveLetterMystery.Run("abcd");
+
+Gemstones.Run(new List<string> { "abcdde", "baccd", "eeabg" });
