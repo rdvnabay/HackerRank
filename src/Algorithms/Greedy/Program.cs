@@ -7,3 +7,5 @@ MinimumAbsoluteDifferenceInAnArray.Run(new List<int>() { 3, -7, 0 });
 MarkAndToys.Run(new List<int>() { 1, 12, 5, 111, 200, 1000, 10 }, 50);
 
 MarcsCakewalk.Run(new List<int>() { 7, 4, 9, 6 });
+
+PriyankaAndToys.Run(new List<int>() { 1, 2, 3, 21, 7, 12, 14, 21 });
